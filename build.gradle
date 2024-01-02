@@ -25,15 +25,10 @@ test {
 	useJUnitPlatform()
 }
 
-sonarqube {
-    properties {
-        properties 'sonar.projectName', 'Example of SOnarQube SCanner for Gradle Usage'
-    }
-}
 
 sonarqube {
     properties {
-        property 'sonar.host.url', 'http://52.87.153.101:9000'
-        property 'sonar.login', 'sqa_592d815927a206fe1a10994f9762598e1aef65f5'
+		 property 'sonar.host.url', 'http://35.174.208.73:9000'
+        property 'sonar.login', 'sqa_2e81504c52a82a657d7331cd5e5febdee9ec4903'
     }
 }
